@@ -19,6 +19,7 @@ h1, h2, h3 {
 }
 
 h1 {
+    margin: 0;
     font-size: 3em;
     background-color: #559682;
     border-radius: 20px;
@@ -109,4 +110,48 @@ img:hover {
 
 body {
     animation: fadeIn 1s ease-out;
+}
+
+#header {
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sidebar {
+    height: auto;
+    width: 340px;
+    background-color: rgb(222, 72, 72);
+    text-align: center;
+}
+
+#content {
+    width: 680px;
+    background-color: rgb(58, 6, 6);
+    text-align: center;
+}
+
+#footer {
+    height: 150px;
+    background-color: rgb(43, 194, 124);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.flex-row {
+    display: flex;
+}
+
+#menu {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    margin-right: 30px;
+    align-items: center;
 }
