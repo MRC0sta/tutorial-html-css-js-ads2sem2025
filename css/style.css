@@ -55,7 +55,7 @@ span {
 }
 
 img {
-    margin-top: 30px;
+    margin: 30px;
     max-width: 100%;
     height: auto;
     border: 5px solid #fff;
@@ -70,6 +70,7 @@ img {
     margin-top: 30px;
 }
 
+/*
 .img-wrapper::before {
     content: "";
     position: absolute;
@@ -95,6 +96,7 @@ img {
 img:hover {
     transform: scale(1.05);
 }
+*/
 
 /* Adicionando uma animação legal no corpo ao carregar */
 @keyframes fadeIn {
@@ -121,6 +123,13 @@ body {
     align-items: center;
 }
 
+#header img {
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    align-items: center;
+}
+
 #sidebar {
     height: auto;
     width: 340px;
@@ -130,6 +139,7 @@ body {
 
 #content {
     width: 680px;
+    height: auto;
     background-color: rgb(58, 6, 6);
     text-align: center;
 }
@@ -150,8 +160,15 @@ body {
 
 #menu {
     height: 50px;
-    width: 50px;
+    width: 400px;
     background-color: pink;
-    margin-right: 30px;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
+
+#menu a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
